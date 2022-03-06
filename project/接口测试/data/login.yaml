@@ -1,0 +1,6 @@
+login£º
+  path: api/demo
+  data :
+    limit: 1
+  ex_result:
+    hello,yinzhiping

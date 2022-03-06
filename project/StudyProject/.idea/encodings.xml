@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/day04/1.内容回顾.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04/2.装饰器.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04/3.迭代器.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04/4.生成器.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04/5.列表推导式.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04/6.匿名函数和三元运算符.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day04/作业.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day05/1.递归函数.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day05/2.内置函数.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day05/3.内置random模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day05/4.正则表达式+re模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day06/作业.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day06/内置os模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day06/内置sys模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day06/内置时间模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day06/爬虫例子.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07/1.序列化模块json pickle.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07/2.面向对象.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07/3.组合.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07/4.继承.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07/作业.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day07/圆形类.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/Object类.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/logging模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/反射.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/异常处理.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/模块和包/demo.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/模块和包/logging.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/模块和包/pack/api/policy.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/模块和包/包的导入.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/模块和包/模块的导入.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08/装饰器+多态+单例模式.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/hashlib模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/socketserver模块/client.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/socketserver模块/并发server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/socket代码实现聊天实例/cilent.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/socket代码实现聊天实例/server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/文件加密1.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/文件加密2.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/文件操作例子.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/文件操作的例子/cilent.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/文件操作的例子/server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/粘包现象与解决方案/Server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/粘包现象与解决方案/client.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/网络编程.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/1.进程.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/2.线程.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/3.协程.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/4.数据库.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/Cilent.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/作业.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/并发编程.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/线程_Server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10/进程_Server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/项目名称/bin/start.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/项目名称/conf/settings.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/项目名称/core/main.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/项目名称/db/userinfo.py" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+一.request
+1.安装request库
+打开cmd 命令窗口 pip install requests
+2.安装yaml库  pip install pyyaml
+3.requests基础:
+
+响应状态码：
+2**：表示成功
+3**：重定向
+4**：路径错误
+5**：系统异常
+
+Request库二次封装：
+    关键字驱动设计模式：
+        1.常用的接口自动化测试是post、get 需要频繁调用request库下的get和post ，所以将公共部分提取出来进行二次封装 存放关键字
+
+
+二.UnitTest
+1.使用UnitTest时，yaml文件数据最前要加上key
+2.安装ddt：pip install ddt
+通过ddt实现yaml文件的使用
+3.yaml文件：数据格式字典存放，放数据  作用：将数据与代码分离
+      yaml文件格式 ：
+                    key:空格value
+3.接口关联机制
+解决接口关联最直接的方式：将公共部分提取，作为全局变量进行配置
+token：
+4.数据赋值与再封装
+随着关联数据越来越多需要进行大量数据赋值，通过封装字典对象进行赋值

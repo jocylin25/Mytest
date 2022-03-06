@@ -1,0 +1,121 @@
+拾遗
+1.pass语句/...：占位
+    程序里什么也不做，明白python语法规则，暂不实现功能，先占个地方
+2.格式化输出
+'其他内容%s其他内容'%变量名1
+'其他内容%s其他内容%s'%(变量名1,变量名2)
+ %s 可以代替字符串，数字
+ %d 代替数字，不可以代替字符串
+3.字符编码
+    ascii
+    gbk
+    unicode:4个字节表示一个文字 字符串形式
+    utf-8:可变长的编码  字节形式
+        英文字母 8位
+        欧洲文字 16位
+        中国文字24位
+#编码使用在哪
+    Unicode：程序的内存里
+    utf-8：存在文件或网络上传输的时候
+#编码转换
+  unicode-->utf-8
+    s = '你好'
+    s.encode('utf-8')
+  utf-8-->unicode
+    s=2ex/byte/
+    s.decode('utf-8')
+
+4.基本数据类型
+bool int float
+list 列表
+    #索引  正数0-n  倒数  -1 - -m
+    #切片 有步长，步长可以省略，顾头不顾尾
+        #[start:end:step]  截取
+        #[::]  [:]  复制列表
+        #[::-1]   完全反转列表
+    #列表的 增 删 改 查
+        增、
+            append('需要添加的值')  向列表末尾添加值
+            insert(索引位置，'需要添加的值’)  往列表固定位置插入值 ，不建议用
+        删、
+            remove（'指定的值'）    永远删除第一个出现的值
+            pop()                   删除列表最后一个值
+            pop(index)              删除指定位置的值，不建议
+            clear()                 清空列表
+            del lst[index]          删除指定位置的值
+        改
+            lst[index]='新值'
+   #通用操作
+           in  not in 判断一个元素在不在列表里
+           len(lst)   列表长度
+str
+tuple
+dict
+set
+5. #for循环：
+            for n in lst:   #迭代
+                print(n)
+   #for与while循环的区别：while循环根据条件来的，结束循环的次数不固定
+                        for循环的次数永远等于循环的那个列表/其他数据类型 的长度
+
+6.str
+    #索引
+    #切片
+    #循环
+    #大小写的转换
+    .upper()    转换成大写
+    .lower()    转换成小写
+    分割 split('分割依据')
+    合并 join          #s2 =':'.join(['alex','3214','86'])
+    替换 replace('旧','新')
+    .strip()   去两边空格
+    .strip('想去掉的两边的内容')
+    .startwith('字符串')     以。。开始
+    .endwith('字符串')       以。。结束
+    判断字符串是不是完全由数字组成： .isdigit()
+        字符串是不是完全由字符组成： .isalpha()
+7.tuple元组
+#(元素1，元素2，元素n)
+#不可变的序列  只能切片，循环，索引，查看  不能增删改
+#只有一个元素后面也加逗号(1,)
+列表转换成元组: tuple(lst)
+元组转换列表： list(tup)
+
+8.dict 字典{'k1':'v1','k2':'v2','kn':'vn'}
+无索引
+#k - v 永远通过key找
+# key不能重复
+# key必须是可hash
+ 可通过哈希算法算出哈希值
+ 不能做key：list dict set
+
+增：d['key']='值'
+删：d.pop('key')
+    del d['key']
+改：d['存在的key']='新的值'
+查：d['存在的key']
+    d.get('不知道不存在的key')
+
+#9.range范围
+range(n)：0~n-1
+range(a,b)：a~b-1
+range(a,b,n)：每隔n，取一个值
+
+# 数字0，字符串'', none,  [] , tuple(), {} --->false  其他为true
+复习：
+身份运算
+is  is  not
+is  判断内存地址是否相等
+== 判断值相等
+str  Unicode编码格式
+ascii  只主持英文
+gbk  中文编码
+UTF-8 字节类型  一个中文3个字节
+join拼接必须是字符串形式
+replace('a'，'A'，n)前n个a替换成A
+.pop()删除最后一个
+remove('元素')  出现多个相同删除第一个
+判断某个值是否在列表中  false  or true  ='值'  in  list
+
+在  for  循环一个列表  字典 元祖时，禁止在循环过程中对其进行修改
+ 嵌套 for循环  实现99乘法表
